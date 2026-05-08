@@ -99,10 +99,3 @@ setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
 )
-
-# Release checklist
-# 1. Checkout the release branch (for a patch the current release branch, for a new minor version, create one):
-#      git checkout -b vXX.xx-release
-# 2. Change the version in setup.py and src/accelerate/__init__.py.
-# 3. Create the tag and push: git tag vXX.xx && git push upstream vXX.xx-release
-# 4. Create the release on GitHub from that tag.
